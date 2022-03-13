@@ -1,1 +1,2 @@
 # treinobootstrap
+minhas series listadas
