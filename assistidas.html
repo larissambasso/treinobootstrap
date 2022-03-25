@@ -32,7 +32,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="/treinobootstrap/assistidas.html">Assistidas</a></li>
-                <li><a class="dropdown-item" href="#">assistindo</a></li>
+                <li><a class="dropdown-item" href="/treinobootstrap/assistindo.html">assistindo</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -57,27 +57,27 @@
   <div class="container-fluid navbar col-12 d-flex justify-content-center">
     <div class="card-deck d-flex col-7">
       <div class="card col-4">
-        <img class="card-img-top" src="/treinobootstrap/img/BB capa.jpg" alt="Card image cap">
+        <img id="mouse" class="card-img-top" src="/treinobootstrap/img/BB capa.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">BREAKING BAD</h5>
         </div>
         <div class="card-footer">
           <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
       <div class="card col-4"style="margin-left: 30px;">
-        <img class="card-img-top" src="/treinobootstrap/img/lost capa.jpg" alt="Card image cap">
+        <img id="mouse" class="card-img-top" src="/treinobootstrap/img/lost capa.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">LOST</h5>
         </div>
         <div class="card-footer">
           <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
       <div class="card col-4"style="margin-left: 30px;">
-        <img class="card-img-top" src="/treinobootstrap/img/thumb-1920-675868.jpg" alt="Card image cap">
+        <img id="mouse" class="card-img-top" src="/treinobootstrap/img/thumb-1920-675868.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">THE HUNDRED</h5>
         </div>
         <div class="card-footer">
           <small class="text-muted">Last updated 3 mins ago</small>
@@ -89,27 +89,27 @@
   <div class="container-fluid navbar col-12 d-flex justify-content-center">
     <div class="card-deck d-flex col-7">
       <div class="card col-4">
-        <img class="card-img-top" src="/treinobootstrap/img/BB capa.jpg" alt="Card image cap">
+        <img id="mouse" class="card-img-top" src="/treinobootstrap/img/BB capa.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">BREAKING BAD</h5>
         </div>
         <div class="card-footer">
           <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
       <div class="card col-4"style="margin-left: 30px;">
-        <img class="card-img-top" src="/treinobootstrap/img/lost capa.jpg" alt="Card image cap">
+        <img id="mouse" class="card-img-top" src="/treinobootstrap/img/lost capa.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">LOST</h5>
         </div>
         <div class="card-footer">
           <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
       <div class="card col-4"style="margin-left: 30px;">
-        <img class="card-img-top" src="/treinobootstrap/img/thumb-1920-675868.jpg" alt="Card image cap">
+        <img id="mouse" class="card-img-top" src="/treinobootstrap/img/thumb-1920-675868.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">THE HUNDRED</h5>
         </div>
         <div class="card-footer">
           <small class="text-muted">Last updated 3 mins ago</small>
@@ -117,4 +117,24 @@
       </div>
     </div>
   </div>
+  <style>
+    #mouse::after{
+      top: -100%;
+      left: 0px;
+      width: 100%;
+      padding: 20px;
+      position: absolute;
+      background: #3a9999;
+      border-radius: 18px;
+      box-sizing: border-box;
+      content: 'Mudou!';
+      color: black;
+      transform-origin: left bottom;
+      transform: rotatex(90deg);
+    }
+    #mouse:hover {
+      transform-origin: center;
+      transform: rotatex(90deg) translateY(100%);
+    }
+  </style>
 </html>
